@@ -1,0 +1,55 @@
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:08:58 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"401 - You are not authosrised - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:14:26 +0000] \"POST /quizes HTTP/1.1\" 401 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"401 - You are not authosrised - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:14:50 +0000] \"POST /quizes HTTP/1.1\" 401 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:16:48 +0000] \"POST /quizes HTTP/1.1\" 200 257 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"500 - repo.create(...).lean is not a function - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:32:22 +0000] \"POST /quizes HTTP/1.1\" 500 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"500 - E11000 duplicate key error collection: quiz.quize index: name_1 dup key: { name: \"Demo Quiz\" } - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:33:08 +0000] \"POST /quizes HTTP/1.1\" 500 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:36:48 +0000] \"POST /quizes HTTP/1.1\" 200 295 \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:37:13 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:39:31 +0000] \"POST /quizes HTTP/1.1\" 200 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - E11000 duplicate key error collection: quiz.quize index: name_1 dup key: { name: \"My Quiz\" } - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:31 +0000] \"POST /quizes HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - PUT - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:31 +0000] \"PUT /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:31 +0000] \"POST /quizes/0/questions HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - PUT - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:31 +0000] \"PUT /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:39:31 +0000] \"GET /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:39:31 +0000] \"GET /quizes/0/questions HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:39:31 +0000] \"GET /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:39:37 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - DELETE - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:37 +0000] \"DELETE /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - DELETE - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:39:37 +0000] \"DELETE /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - E11000 duplicate key error collection: quiz.quize index: name_1 dup key: { name: \"My Quiz\" } - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:40:44 +0000] \"POST /quizes HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - E11000 duplicate key error collection: quiz.quize index: name_1 dup key: { name: \"My Quiz\" } - /quizes - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:44 +0000] \"POST /quizes HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - PUT - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:44 +0000] \"PUT /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions - POST - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:44 +0000] \"POST /quizes/0/questions HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - PUT - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:44 +0000] \"PUT /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:40:44 +0000] \"GET /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:40:44 +0000] \"GET /quizes/0/questions HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - GET - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:40:44 +0000] \"GET /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:40:48 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0/questions/0 - DELETE - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:48 +0000] \"DELETE /quizes/0/questions/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"500 - Cast to ObjectId failed for value \"0\" at path \"_id\" for model \"Quizes\" - /quizes/0 - DELETE - ::ffff:127.0.0.1","level":"error"}
+{"message":"::ffff:127.0.0.1 - admin [07/Jul/2023:14:40:48 +0000] \"DELETE /quizes/0 HTTP/1.1\" 500 - \"-\" \"node-superagent/3.8.3\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:41:51 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [07/Jul/2023:14:44:21 +0000] \"GET /quizes HTTP/1.1\" 200 - \"-\" \"Thunder Client (https://www.thunderclient.com)\"\n","level":"info"}

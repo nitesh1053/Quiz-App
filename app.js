@@ -1,6 +1,5 @@
 const createError = require("http-errors");
 const express = require("express");
-const path = require("path");
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
 const winston = require("./winston");
@@ -50,10 +49,6 @@ app.use(express.urlencoded({ extended: true, limit: "10kb" }));
 // Set security HTTP headers
 app.use(helmet());
 
-// view engine setup
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "jade");
-
 app.use(morgan("combined", { stream: winston.stream }));
 
 app.use(cookieParser("12345-67890"));
@@ -80,9 +75,6 @@ app.options("*", cors());
 app.use(compression());
 
 app.disable("x-powered-by");
-
-// Set static folder
-app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);

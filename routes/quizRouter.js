@@ -49,20 +49,8 @@ quizRouter.route('/:quizId')
             .then((quiz) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'text/plain');
-                var html = "<p style = 'text-align: center'><b>" + quiz.name + "</b></p><b>Instructions: </b>" + quiz.instructions + "<br>";
-                html = html + "<b>Duration: </b>" + quiz.duration.hours + ":" + quiz.duration.minutes + ":" + quiz.duration.seconds + "<hr>";
-                var num = 1;
-                for (var i = 0; i < quiz.questions.length; i++) {
-                  if (!quiz.questions[i].isEnabled)
-                      continue;
-                  html = html + num + ". " + quiz.questions[i].question + "  -  " + quiz.questions[i]._id + "<br><div style = 'margin: 10px'>";
-                  num = num + 1;
-                  for (var j = 0; j < quiz.questions[i].answers.length; j++) {
-                    html = html + (j+1) + ". " + quiz.questions[i].answers[j].option + "<br>";
-                  }
-                  html = html + "</div><b> Answer: </b>" + quiz.questions[i].answer + "<br><b>Explanation: </b>" + quiz.questions[i].explanation + "<br><hr>";
-                }
-                res.end(html);
+                
+                res.json(quiz);
             }, (err) => next(err)).catch((err) => next(err));
     })
     .post((req, res, next) => {
